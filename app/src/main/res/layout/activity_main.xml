@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.bestmafen.valuepicker.MainActivity">
+    <Button
+        android:id="@+id/bt_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/ripple"
+        android:text="水平方向"
+        android:textColor="#fff"/>
+    <Button
+        android:id="@+id/bt_v"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/ripple"
+        android:text="垂直方向"
+        android:textColor="#fff"/>
+    <Button
+        android:id="@+id/bt_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple"
+        android:text="圆形"
+        android:textColor="#fff"/>
+</LinearLayout>
