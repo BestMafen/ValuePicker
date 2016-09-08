@@ -18,6 +18,12 @@
 ```
 ValuePickerH h1 = (ValuePickerH) findViewById(R.id.h1);
         h1.setParams(ValuePickerH.Gravity.TOP, ValuePickerH.Orientation.UP, 20, 100, 0.5f, 50);
+h1.setOnValuePickedListener(new OnValuePickedListener() {
+            @Override
+            public void onValueSelected(float value) {
+                tv1.setText(String.valueOf(value));
+            }
+        });
 ```
 
 ---
@@ -38,6 +44,12 @@ ValuePickerH h1 = (ValuePickerH) findViewById(R.id.h1);
 ```
 ValuePickerV v1 = (ValuePickerV) findViewById(R.id.v1);
         v1.setParams(ValuePickerV.Gravity.START, ValuePickerV.Orientation.LEFT, 20, 100, 0.5f, 50);
+ v1.setOnValuePickedListener(new OnValuePickedListener() {
+            @Override
+            public void onValueSelected(float value) {
+                tv1.setText(String.valueOf(value));
+            }
+        });
 ```
 
 ---
@@ -58,6 +70,12 @@ ValuePickerV v1 = (ValuePickerV) findViewById(R.id.v1);
 ```
 ValuePickerC c1 = (ValuePickerC) findViewById(R.id.c1);
         c1.setParams(ValuePickerC.Gravity.START, 20, 100, 0.5f, 50);
+c1.setOnValuePickedListener(new OnValuePickedListener() {
+            @Override
+            public void onValueSelected(float value) {
+                tv1.setText(String.valueOf(value));
+            }
+        });
 ```
 
 ---
