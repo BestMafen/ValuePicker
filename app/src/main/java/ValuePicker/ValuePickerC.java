@@ -79,7 +79,7 @@ public class ValuePickerC extends View {
         mPaintLine = new Paint();
         mPaintLine.setDither(true);
         mPaintLine.setAntiAlias(true);
-        mPaintLine.setTextSize(56);
+        mPaintLine.setTextSize(40);
         c10 = Color.parseColor("#FF4081");
         c5 = Color.parseColor("#999999");
     }
